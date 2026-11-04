@@ -1,0 +1,70 @@
+.elementor-kit-6{--e-global-color-primary:#1A1A2E;--e-global-color-secondary:#54595F;--e-global-color-text:#5A6477;--e-global-color-accent:#192FEE;--e-global-typography-primary-font-family:"Plus Jakarta Sans";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Inter";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Inter";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Inter";--e-global-typography-accent-font-weight:400;--e-global-typography-e2e7d97-font-family:"Inter";--e-global-typography-e2e7d97-font-size:16px;--e-global-typography-e2e7d97-font-weight:400;--e-global-typography-e2e7d97-line-height:26px;}.elementor-kit-6 e-page-transition{background-color:#FFBC7D;}.elementor-kit-6 h1{font-size:48px;line-height:1.3em;}.elementor-kit-6 h2{font-size:36px;line-height:45px;}.elementor-kit-6 h3{font-size:26px;line-height:1.3em;}.elementor-kit-6 h4{font-size:18px;font-weight:700;line-height:28px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1450px;}.e-con{--container-max-width:1450px;}.elementor-widget:not(:last-child){--kit-widget-spacing:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1024px){.elementor-kit-6 h1{font-size:40px;}.elementor-kit-6 h2{font-size:30px;line-height:40px;}.elementor-kit-6 h3{font-size:22px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-kit-6 h1{font-size:30px;}.elementor-kit-6 h2{font-size:26px;line-height:36px;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */.mb-0 p
+{
+    margin-bottom: 0 !important;
+}
+.auto-margin
+{
+    margin-top: auto;
+}
+.dark-bg a
+{
+    color: #fff;
+    text-decoration: under;
+}
+
+
+/* Tablepress CSS */
+.tablepress>:where(thead,tfoot)>tr>* {
+    background: #051E39 !important;
+    color: #fff !important;
+    text-align: left;
+}
+th.column-1, td.column-1 {
+    padding-left: 30px !important;
+}
+table td, table th {
+    border: 1px solid hsla(0, 0%, 50%, .502);
+    line-height: 1.5;
+    padding: 15px;
+    vertical-align: top;
+}
+table
+{
+        border: solid 1px #f1f1f1 !important;
+}
+.tablepress {
+        width: 100% !important;
+        display: table; /* Ensures it behaves like a standard table */
+        margin: 0 auto 1em;
+    }
+    .tablepress-scroll-wrapper {
+        overflow-x: auto;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        width: 100%;
+    }
+
+.tablepress thead th
+{
+    font-size: 16px;
+    padding: 20px 5px;
+}
+.tablepress tbody td
+{
+    font-size: 14px;
+    padding: 20px 5px;
+}
+
+  .single-posts-container table {
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .single-posts-container table th,
+  .single-posts-container table td {
+    font-size: 12px !important; 
+    padding: 6px 4px !important; 
+    width: auto !important; 
+  }/* End custom CSS */
