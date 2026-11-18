@@ -1,6 +1,8 @@
 /* Blog article extras: author box and TOC bullets. */
-.elementor-widget-table-of-contents ul.elementor-toc__list-wrapper .elementor-toc__list-item-text-wrapper:before {
-  content: "\2022";
+.elementor-widget-table-of-contents .elementor-toc__list-item-text-wrapper:before,
+.elementor-widget-table-of-contents .elementor-toc__list-item-text-wrapper i {
+  content: none !important;
+  display: none !important;
 }
 
 .cr-author-box {
